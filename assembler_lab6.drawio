@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="481" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="836" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -60,13 +60,13 @@
           <mxGeometry x="590" y="640" width="166.87" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-15" value="Является ли символ числом" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="639.5" y="600" width="150" height="30" as="geometry" />
+          <mxGeometry x="670" y="600" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-18" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="723.43" y="640" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-19" value="Прыгаем в конец на вывод сообщения о том, что строка не число" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="760" width="250" height="50" as="geometry" />
+          <mxGeometry x="710" y="760" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-24" value="Да, число" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="480" y="650" width="60" height="30" as="geometry" />
@@ -108,18 +108,18 @@
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="723.4340740740741" y="680.002090693798" as="sourcePoint" />
-            <mxPoint x="792.4670370370369" y="760" as="targetPoint" />
+            <mxPoint x="753.4440740740741" y="680.002090693798" as="sourcePoint" />
+            <mxPoint x="822.4770370370369" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.02;exitY=0.626;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="1228.81" as="sourcePoint" />
-            <mxPoint x="233.6" y="480.03" as="targetPoint" />
+            <mxPoint x="360" y="1208.78" as="sourcePoint" />
+            <mxPoint x="233.6" y="460" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="353.6" y="1229.03" />
-              <mxPoint x="143.6" y="1230.03" />
-              <mxPoint x="143.6" y="480.03" />
+              <mxPoint x="353.6" y="1209" />
+              <mxPoint x="143.6" y="1210" />
+              <mxPoint x="143.6" y="460" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -151,7 +151,7 @@
           <mxGeometry x="380" y="1340" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-52" value="cx = длине введённой строки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="337" y="390" width="183" height="30" as="geometry" />
+          <mxGeometry x="337.5" y="400" width="183" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.449;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-25" target="ezsCKuzCL39npm8rFLfG-52">
           <mxGeometry relative="1" as="geometry">
@@ -160,8 +160,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ezsCKuzCL39npm8rFLfG-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.483;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-52" target="ezsCKuzCL39npm8rFLfG-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ezsCKuzCL39npm8rFLfG-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=-0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-52" target="ezsCKuzCL39npm8rFLfG-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="447" />
+              <mxPoint x="428" y="447" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
