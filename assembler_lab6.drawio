@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="662" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="882" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -34,58 +34,125 @@
         <mxCell id="ezsCKuzCL39npm8rFLfG-7" value="Перевод строки в число" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="410" y="300" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ezsCKuzCL39npm8rFLfG-8" value="пока не дойдём с последнего символа введённой строки до первого" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="319.5" y="450" width="215" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ezsCKuzCL39npm8rFLfG-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="ezsCKuzCL39npm8rFLfG-10">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="534.5" y="480" as="sourcePoint" />
-            <mxPoint x="608" y="520" as="targetPoint" />
+        <mxCell id="ezsCKuzCL39npm8rFLfG-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-8" target="ezsCKuzCL39npm8rFLfG-10">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="607" y="480" />
+              <mxPoint x="673" y="460" />
+              <mxPoint x="673" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-8" value="пока не дойдём с последнего символа введённой строки до первого(сначала берём младший десятичный разряд =&amp;gt; di = длина строки - 1, потому что начинается с 0-го байта)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="430" width="407" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-10" target="ezsCKuzCL39npm8rFLfG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-10" value="берём тек. символ(номер ascii кода) в al" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="527.5" y="550" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ezsCKuzCL39npm8rFLfG-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="ezsCKuzCL39npm8rFLfG-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="607" y="590" as="sourcePoint" />
-            <mxPoint x="607" y="640" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ezsCKuzCL39npm8rFLfG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="756.5" y="770.51" as="targetPoint" />
-            <mxPoint x="690.4300000000001" y="690" as="sourcePoint" />
-          </mxGeometry>
+          <mxGeometry x="593.44" y="540" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="357.2857142857143" y="750" as="targetPoint" />
+            <mxPoint x="389.7857142857143" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ezsCKuzCL39npm8rFLfG-12" value="al &amp;gt; 39 || al &amp;lt; 30" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="524.06" y="650" width="166.87" height="80" as="geometry" />
+        <mxCell id="ezsCKuzCL39npm8rFLfG-12" value="al &amp;gt; 57 || al &amp;lt; 48" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="640" width="166.87" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-15" value="Является ли символ числом" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="607" y="610" width="150" height="30" as="geometry" />
+          <mxGeometry x="639.5" y="600" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-18" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="690.43" y="660" width="60" height="30" as="geometry" />
+          <mxGeometry x="723.43" y="640" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-19" value="Прыгаем в конец на вывод сообщения о том, что строка не число" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="617" y="770" width="250" height="50" as="geometry" />
+          <mxGeometry x="670" y="760" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-24" value="Да, число" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="437" y="660" width="60" height="30" as="geometry" />
+          <mxGeometry x="480" y="650" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-25" value="десятичный коэффициент изначально приравниваем к 1, занося в bx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="292.5" y="340" width="255" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ezsCKuzCL39npm8rFLfG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.466;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-25" target="ezsCKuzCL39npm8rFLfG-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-28" target="ezsCKuzCL39npm8rFLfG-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-28" value="отнимаем у al 48(становится цифрой)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="740" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-30" target="ezsCKuzCL39npm8rFLfG-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-30" value="умножаем на коэффициент(bx)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-32" target="ezsCKuzCL39npm8rFLfG-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-32" value="прибавляем к общей сумме(в dx, потому что остальные регистры заняты) текущее число(в ax)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="242.5" y="930" width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-34" target="ezsCKuzCL39npm8rFLfG-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-34" value="умножаем коэффициент на 10(берём следующий разряд)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="1020" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="723.4340740740741" y="680.002090693798" as="sourcePoint" />
+            <mxPoint x="792.4670370370369" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.02;exitY=0.626;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1200" as="sourcePoint" />
+            <mxPoint x="230" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="1209" />
+              <mxPoint x="350" y="1210" />
+              <mxPoint x="140" y="1210" />
+              <mxPoint x="140" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-41" target="ezsCKuzCL39npm8rFLfG-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-41" value="dec di(берём предыдущий символ)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="1120" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-45" value="loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355" y="1190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ezsCKuzCL39npm8rFLfG-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-48" value="конец цикла перевода из строки в число" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="1270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ezsCKuzCL39npm8rFLfG-51" value="Дальше перевод из 10-го числа в 2-ое(запуск подпрограммы)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="1340" width="290" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
