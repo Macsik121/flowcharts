@@ -96,26 +96,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-14" value="сдвигаем получившееся десятичное число влево на 1 бит" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-150" y="480" width="130" height="60" as="geometry" />
+          <mxGeometry x="-200" y="480" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-19" target="OpSav2Jw1ReQop_rSbhb-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-90" y="510" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-180" y="630" />
-              <mxPoint x="-180" y="510" />
+              <mxPoint x="-230" y="615" />
+              <mxPoint x="-230" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OpSav2Jw1ReQop_rSbhb-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-19" target="OpSav2Jw1ReQop_rSbhb-24">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="65" y="630" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-19" target="OpSav2Jw1ReQop_rSbhb-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-19" value="сдвинутый бит -- 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-167.5" y="585" width="165" height="90" as="geometry" />
+          <mxGeometry x="-217.5" y="570" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-24">
           <mxGeometry relative="1" as="geometry">
@@ -154,6 +150,12 @@
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-42" value="помещаем получившийся символ в строку на вывод" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="1000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-45" target="OpSav2Jw1ReQop_rSbhb-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-45" value="возвращаем старший(после бита знака) лишний сдвинутый бит" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5" y="585" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
