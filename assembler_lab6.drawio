@@ -89,7 +89,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OpSav2Jw1ReQop_rSbhb-11" value="берём следующий текущий символ. изначальной индекс ссылается на последний символ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-11" value="берём следующий текущий символ. изначально индекс ссылается на последний символ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="380" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-14" target="OpSav2Jw1ReQop_rSbhb-19">
