@@ -75,10 +75,8 @@
         <mxCell id="OpSav2Jw1ReQop_rSbhb-2" value="добавляем к финальному десятичному числу текущее число, умноженное на 10-й коэф" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="715" y="790" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="OpSav2Jw1ReQop_rSbhb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-4" target="5fV1kzE_wfEQVig91Vzh-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="950" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-4" target="OpSav2Jw1ReQop_rSbhb-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-4" value="умножаем 10-й коэффициент на 10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="740" y="920" width="120" height="60" as="geometry" />
@@ -138,6 +136,12 @@
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-33" value="&lt;div&gt;сдвигаем влево&lt;/div&gt;&lt;div&gt;на 1 бит&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-35" target="5fV1kzE_wfEQVig91Vzh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-35" value="берём индекс следующего символа с конца" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="702.5" y="1020" width="195" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
