@@ -149,7 +149,7 @@
         <mxCell id="OpSav2Jw1ReQop_rSbhb-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-35" target="5fV1kzE_wfEQVig91Vzh-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OpSav2Jw1ReQop_rSbhb-35" value="берём индекс следующего символа с конца" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-35" value="берём индекс предыдущего символа за текущим" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="702.5" y="1020" width="195" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-40" target="OpSav2Jw1ReQop_rSbhb-42">
