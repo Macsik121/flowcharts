@@ -108,7 +108,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-19" target="OpSav2Jw1ReQop_rSbhb-45">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-10" y="615" />
+              <mxPoint x="-10" y="615" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-19" value="сдвинутый бит -- 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-217.5" y="570" width="165" height="90" as="geometry" />
@@ -154,8 +159,8 @@
         <mxCell id="OpSav2Jw1ReQop_rSbhb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-45" target="OpSav2Jw1ReQop_rSbhb-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OpSav2Jw1ReQop_rSbhb-45" value="возвращаем старший(после бита знака) лишний сдвинутый бит" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5" y="585" width="120" height="60" as="geometry" />
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-45" value="возвращаем старший(после бита знака) лишний сдвинутый бит на место" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5" y="577.5" width="120" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
