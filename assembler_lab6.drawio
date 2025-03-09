@@ -91,7 +91,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OpSav2Jw1ReQop_rSbhb-11" value="берём следующий текущий символ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-11" value="берём текущий символ по индексу" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-14" target="OpSav2Jw1ReQop_rSbhb-19">
@@ -119,11 +119,25 @@
         <mxCell id="OpSav2Jw1ReQop_rSbhb-19" value="сдвинутый бит -- 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-167.5" y="585" width="165" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-24" value="&lt;div&gt;прошлись по каждому биту десятичного числа без&lt;/div&gt;&lt;div&gt;незначящих нулей?&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-40" y="730" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OpSav2Jw1ReQop_rSbhb-26" value="начало подпрограммы перевода из строки 10 цифр в строку 2-х цифр" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="268.75" y="250" width="182.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OpSav2Jw1ReQop_rSbhb-30" target="5fV1kzE_wfEQVig91Vzh-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-30" value="начало программы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OpSav2Jw1ReQop_rSbhb-33" value="&lt;div&gt;сдвигаем влево&lt;/div&gt;&lt;div&gt;на 1 бит&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="810" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
