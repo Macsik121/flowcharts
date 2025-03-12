@@ -289,11 +289,11 @@
         <mxCell id="31vNVqDRn2n1HvsoQiSH-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="31vNVqDRn2n1HvsoQiSH-35" target="31vNVqDRn2n1HvsoQiSH-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="31vNVqDRn2n1HvsoQiSH-35" value="число &amp;gt; 32768?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="55" y="470" width="80" height="80" as="geometry" />
+        <mxCell id="31vNVqDRn2n1HvsoQiSH-35" value="число &amp;gt; 32767 || число &amp;lt; -32768?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="470" width="125" height="80" as="geometry" />
         </mxCell>
         <mxCell id="31vNVqDRn2n1HvsoQiSH-37" value="число слишком больше. пределы: (-32768, 32767)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="27.5" y="380" width="135" height="60" as="geometry" />
+          <mxGeometry x="5" y="380" width="135" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
