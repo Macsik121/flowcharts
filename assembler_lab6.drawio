@@ -259,6 +259,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="31vNVqDRn2n1HvsoQiSH-22" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="568" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="31vNVqDRn2n1HvsoQiSH-23" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="568" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
